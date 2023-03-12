@@ -1,0 +1,221 @@
+/* styling for laptop screen */
+
+header {
+    text-align:center;
+
+}
+
+img {
+
+    max-width: 100%;
+
+}
+h1 {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #E6FFF8;
+
+  }
+
+  h2 {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #087565;
+
+  }
+
+  .intro {
+    position: absolute;
+    top: 600px;
+    right: 550px;
+
+
+  }
+  
+  .banner {
+    position: relative;
+  }
+
+
+
+aside {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #E6FFF8;
+    background-color: #4FAA98;
+
+}
+
+article {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #E6FFF8;
+    background-color: #4FAA98;
+
+
+}
+
+footer {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #E6FFF8;
+    background-color: #4FAA98;
+
+
+
+}
+
+.navbar {
+
+  width: 100%;
+  margin: 0 auto;
+
+}
+
+nav {
+
+  background: #333;
+
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  flex: 1 1 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #E6FFF8;
+  display: block;
+  padding: 10px;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
+
+
+.skills li {
+
+  display: inline;
+  padding-left: 50px;
+
+}
+
+
+.content .education_box {
+  padding: 80px;
+  
+}
+
+.content .experience_box {
+  padding: 80px;
+  
+}
+
+
+
+.content {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+
+}
+
+
+@media only screen and (max-width: 768px) {
+
+  .intro {
+    position: absolute;
+    top: 40px;
+    right: 280px;
+
+
+  }
+
+  .content {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .content .education_box {
+    padding: 20px;
+    
+  }
+  
+  .content .experience_box {
+    padding: 20px;
+    
+  }
+
+  .skills li {
+
+    display: inline;
+    padding-left: 25px;
+  
+  }
+
+
+
+}
+
+@media only screen and (max-width: 425px) {
+
+  .intro {
+    position: absolute;
+    top: 190px;
+    right: 290px;
+
+
+  }
+
+  .content {
+    width: 100%;
+    display: inline-block;
+
+
+}
+
+  .content .education_box {
+    padding: 20px;
+    
+  }
+  
+  .content .experience_box {
+    padding: 20px;
+    
+  }
+
+  .skills li {
+
+    display: inline;
+    padding-left: 25px;
+  
+  }
+
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+  }
+  
+  nav li {
+    flex: 1 1 0;
+  }
+
+
+
+}
+
+
+
+
+
